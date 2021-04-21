@@ -3,44 +3,48 @@ var router = express.Router();
 
 const jwt = require('jsonwebtoken');
 const Usuario = require('../controllers/userController.js');
+const Auth = require('../controllers/authController');
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
+router.get('/', (req, res, next) =>{
   res.render('index', { title: 'Express' });
 });
 
 
 //cadastrar um usuário
-router.post('/usuarios/cadastro', function (req, res, next) {
+router.post('/usuario/cadastro', async(req, res, next) =>{
     var usuario = new Usuario();
-    usuario.registroUsuario(req, res, next);
+    await usuario.registroUsuario(req, res, next);
 });
 
 //retorna todos os usuários
-router.get('/usuarios', function (req, res, next) {
+router.get('/usuarios', async (req, res, next) =>{
     var usuario = new Usuario();
-    usuario.retornaUsuarios(req, res, next);
+    await usuario.retornaUsuarios(req, res, next);
 });
 
 //retorna um usuário
-router.get('/usuario/:id', function (req, res, next) {
+router.get('/usuario/:id', async (req, res, next) =>{
     var usuario = new Usuario();
-    usuario.retornaUsuario(req, res, next);
+    await usuario.retornaUsuario(req, res, next);
 });
 
 
 //Atualização de usuários
-router.put('/usuarios/:id', function (req, res, next) {
+router.put('/usuario/atualizacao/:id', async (req, res, next) =>{
     var usuario = new Usuario();
-    usuario.atualizaUsuario(req, res, next);
+    await usuario.atualizaUsuario(req, res, next);
 });
 
-//Delete de usuários
-router.delete('/usuarios/:id', function (req, res, next) {
+//Delete de usuário
+router.delete('/usuario/delete/:id', async(req, res, next) =>{
     var usuario = new Usuario();
-    usuario.deletaUsuario(req, res, next);
+    await usuario.deletaUsuario(req, res, next);
 });
 
 //Login de usuários
-
+router.post('/login', async(req, res, next) =>{
+    var auth = new Auth();
+    await auth.login(req, res, next);
+});
 module.exports = router;

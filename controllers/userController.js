@@ -1,4 +1,5 @@
 var express = require('express');
+var User = require('../models/user');
 var router = express.Router();
 const jwt = require('jsonwebtoken');
 
@@ -8,9 +9,7 @@ class Usuario{
 
     //função de registro de usuario
     async registroUsuario(req, res, next){
-        var db = require('../db');
-        var UsuarioController = db.Mongoose.model('usuarios', db.UsuarioSchema, 'usuarios');
-        var novoUsuario = new UsuarioController({
+        var novoUsuario = new User({
             nome: req.body.name, 
             email: req.body.email,
             cpf: req.body.cpf,
@@ -30,9 +29,7 @@ class Usuario{
 
     //função de atualização de usuario
     async atualizaUsuario(req, res, next){
-        var db = require('../db');
-        var UsuarioController = db.Mongoose.model('usuarios', db.UsuarioSchema, 'usuarios');
-        UsuarioController.findOneAndUpdate({ _id: req.params.id }, req.body, { upsert: true }, function (err, doc) {
+        User.findOneAndUpdate({ _id: req.params.id }, req.body, { upsert: true }, function (err, doc) {
             if (err) {
                 res.status(500).json({ error: 'Erro ao atualizar usuário' });
                 res.end();
@@ -45,29 +42,25 @@ class Usuario{
 
     //função de consulta de um usuario
     async retornaUsuario(req, res, next){
-        var db = require('../db');
-        var UsuarioController = db.Mongoose.model('usuarios', db.UsuarioSchema, 'usuarios');
-        UsuarioController.find({ _id: req.params.id }).lean().exec(function (e, docs) {
-            res.json(docs);
-            res.end();
-        });
+        const usuario = await User.findOne({_id: req.params.id});
+        if(!usuario){
+            return res.status(400).json( { message : 'Usuário não encontrado!' } )
+        }
+        return res.json(usuario);  
     };
 
     //função de consulta de usuarios
     async retornaUsuarios(req, res, next){
-        var db = require('../db');
-        var UsuarioController = db.Mongoose.model('usuarios', db.UsuarioSchema, 'usuarios');
-        UsuarioController.find({}).lean().exec(function(e,docs){
-            res.json(docs);
-            res.end();
-        });
+        const usuarios = await User.find();
+        if(!usuarios){
+            return res.status(400).json( { message : 'Usuário não encontrado!' } )
+        }
+        return res.json(usuarios); 
     };
 
     //função de exclusão de usuario
     async deletaUsuario(req, res, next){
-        var db = require('../db');
-        var UsuarioController = db.Mongoose.model('usuarios', db.UsuarioSchema, 'usuarios');
-        UsuarioController.find({ _id: req.params.id }).remove(function (err) {
+        User.findOneAndDelete({ _id: req.params.id }).remove(function (err) {
             if (err) {
                 res.status(500).json({ error: 'Erro ao deletar usuário' });
                 res.end();
