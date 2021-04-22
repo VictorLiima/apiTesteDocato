@@ -10,7 +10,7 @@ class Usuario{
     //função de registro de usuario
     async registroUsuario(req, res, next){
         var novoUsuario = new User({
-            nome: req.body.name, 
+            nome: req.body.nome, 
             email: req.body.email,
             cpf: req.body.cpf,
             nomeDeUsuario: req.body.nomeDeUsuario,
