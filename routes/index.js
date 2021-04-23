@@ -31,13 +31,13 @@ router.get('/usuario/:id', async (req, res, next) =>{
 
 
 //Atualização de usuários
-router.put('/usuario/atualizacao/:id', async (req, res, next) =>{
+router.put('/usuario/:id', async (req, res, next) =>{
     var usuario = new Usuario();
     await usuario.atualizaUsuario(req, res, next);
 });
 
 //Delete de usuário
-router.delete('/usuario/delete/:id', async(req, res, next) =>{
+router.delete('/usuario/:id', async(req, res, next) =>{
     var usuario = new Usuario();
     await usuario.deletaUsuario(req, res, next);
 });
