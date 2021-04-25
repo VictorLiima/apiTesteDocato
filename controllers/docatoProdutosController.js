@@ -53,27 +53,34 @@ class docatoProdutos {
       let btContratar = document.getElementsByClassName("botao-atividade");
 
       for (let i = 0; i < btContratar.length; i++) {
-        data.push({ botao: btContratar[i].textContent });
+        data.push({
+          botao: btContratar[i].textContent,
+          link: btContratar[i].href,
+        });
       }
       return data;
     });
 
     let b = 0;
 
-    let btSaibaMais = await page.evaluate(() => {
-      let botaoSaibaMais = document.getElementsByClassName("botao-saiba-mais");
-      return botaoSaibaMais[0].textContent;
+    let btSaiba = await page.evaluate(() => {
+      let data = [];
+      let btSaibaMais = document.getElementsByClassName("botao-saiba-mais");
+      data.push({
+        botao: btSaibaMais[i].textContent,
+        link: btSaibaMais[i].href,
+      });
+      return data;
     });
-
-    console.log(btSaibaMais);
 
     for (let i = 0; i < btCont.length; i++) {
       if (btCont[i].botao.indexOf("Contratar") !== -1) {
         produtos[b].botao = btCont[i].botao;
+        produtos[b].link = btCont[i].link;
         b += 1;
       } else {
-        produtos[b].botao = btSaibaMais;
-        b += 1;
+        produtos[b].botao = btSaiba[0].botao;
+        produtos[b].link = btSaiba[0].link;
       }
     }
 

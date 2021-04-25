@@ -1,0 +1,668 @@
+[
+  {
+    "nome": "admin",
+    "email": "admin@gmail.com",
+    "cpf": "000.000.000-00",
+    "nomeDeUsuario": "admin_admin",
+    "senha": "12345678"
+  },
+  {
+    "nome": "Ocean",
+    "email": "Ocean@gmail.com",
+    "cpf": "381.969.896-65",
+    "nomeDeUsuario": "Ocean_female",
+    "senha": "NTJ20CWQ2NU"
+  },
+  {
+    "nome": "Aristotle",
+    "email": "Aristotle@gmail.com",
+    "cpf": "438.224.771-99",
+    "nomeDeUsuario": "Aristotle_male",
+    "senha": "MMU76NIX4AN"
+  },
+  {
+    "nome": "Elton",
+    "email": "Elton@gmail.com",
+    "cpf": "360.065.780-31",
+    "nomeDeUsuario": "Elton_male",
+    "senha": "ZVE11QGC3OV"
+  },
+  {
+    "nome": "Kirestin",
+    "email": "Kirestin@gmail.com",
+    "cpf": "449.951.872-78",
+    "nomeDeUsuario": "Kirestin_female",
+    "senha": "UNO42KCH3KB"
+  },
+  {
+    "nome": "Jasper",
+    "email": "Jasper@gmail.com",
+    "cpf": "982.807.037-71",
+    "nomeDeUsuario": "Jasper_male",
+    "senha": "VMI57PWX8UB"
+  },
+  {
+    "nome": "Candace",
+    "email": "Candace@gmail.com",
+    "cpf": "064.213.937-34",
+    "nomeDeUsuario": "Candace_female",
+    "senha": "PTS49EZU8ZI"
+  },
+  {
+    "nome": "Abigail",
+    "email": "Abigail@gmail.com",
+    "cpf": "781.819.328-46",
+    "nomeDeUsuario": "Abigail_female",
+    "senha": "HKT88KVF4TI"
+  },
+  {
+    "nome": "Neve",
+    "email": "Neve@gmail.com",
+    "cpf": "645.457.066-98",
+    "nomeDeUsuario": "Neve_female",
+    "senha": "CLL00AWU3JY"
+  },
+  {
+    "nome": "Adria",
+    "email": "Adria@gmail.com",
+    "cpf": "500.041.809-13",
+    "nomeDeUsuario": "Adria_female",
+    "senha": "IWA75QFA9UR"
+  },
+  {
+    "nome": "Karina",
+    "email": "Karina@gmail.com",
+    "cpf": "815.596.039-36",
+    "nomeDeUsuario": "Karina_female",
+    "senha": "BTR30DIY9JW"
+  },
+  {
+    "nome": "Yasir",
+    "email": "Yasir@gmail.com",
+    "cpf": "806.882.318-49",
+    "nomeDeUsuario": "Yasir_male",
+    "senha": "WYY28CGT9SJ"
+  },
+  {
+    "nome": "Eaton",
+    "email": "Eaton@gmail.com",
+    "cpf": "194.215.837-90",
+    "nomeDeUsuario": "Eaton_male",
+    "senha": "URS07CGV6OO"
+  },
+  {
+    "nome": "Danielle",
+    "email": "Danielle@gmail.com",
+    "cpf": "212.039.565-10",
+    "nomeDeUsuario": "Danielle_female",
+    "senha": "SVP60XGE0YC"
+  },
+  {
+    "nome": "Brady",
+    "email": "Brady@gmail.com",
+    "cpf": "785.093.803-31",
+    "nomeDeUsuario": "Brady_male",
+    "senha": "WCR95ULD8EE"
+  },
+  {
+    "nome": "Miriam",
+    "email": "Miriam@gmail.com",
+    "cpf": "207.495.021-43",
+    "nomeDeUsuario": "Miriam_female",
+    "senha": "QWD27MWQ3MJ"
+  },
+  {
+    "nome": "Harding",
+    "email": "Harding@gmail.com",
+    "cpf": "879.593.862-58",
+    "nomeDeUsuario": "Harding_male",
+    "senha": "IPT04XLP4RS"
+  },
+  {
+    "nome": "Kaitlin",
+    "email": "Kaitlin@gmail.com",
+    "cpf": "980.502.784-51",
+    "nomeDeUsuario": "Kaitlin_female",
+    "senha": "OPL83JIW7DF"
+  },
+  {
+    "nome": "Ignatius",
+    "email": "Ignatius@gmail.com",
+    "cpf": "905.429.742-38",
+    "nomeDeUsuario": "Ignatius_male",
+    "senha": "BKZ94BVM5ZD"
+  },
+  {
+    "nome": "Forrest",
+    "email": "Forrest@gmail.com",
+    "cpf": "202.179.734-60",
+    "nomeDeUsuario": "Forrest_male",
+    "senha": "TRB67TSD0PW"
+  },
+  {
+    "nome": "Edan",
+    "email": "Edan@gmail.com",
+    "cpf": "987.202.912-83",
+    "nomeDeUsuario": "Edan_male",
+    "senha": "OMK23INC1IW"
+  },
+  {
+    "nome": "Melvin",
+    "email": "Melvin@gmail.com",
+    "cpf": "758.311.046-32",
+    "nomeDeUsuario": "Melvin_male",
+    "senha": "YHW95OKC6WK"
+  },
+  {
+    "nome": "Otto",
+    "email": "Otto@gmail.com",
+    "cpf": "186.419.249-91",
+    "nomeDeUsuario": "Otto_male",
+    "senha": "YFB99SEO7KH"
+  },
+  {
+    "nome": "Emerson",
+    "email": "Emerson@gmail.com",
+    "cpf": "365.080.965-85",
+    "nomeDeUsuario": "Emerson_male",
+    "senha": "HXY88WSW9UQ"
+  },
+  {
+    "nome": "Hop",
+    "email": "Hop@gmail.com",
+    "cpf": "060.317.578-55",
+    "nomeDeUsuario": "Hop_male",
+    "senha": "FXF02ZKQ5GQ"
+  },
+  {
+    "nome": "Shoshana",
+    "email": "Shoshana@gmail.com",
+    "cpf": "076.898.600-39",
+    "nomeDeUsuario": "Shoshana_female",
+    "senha": "YMX80BZS8MB"
+  },
+  {
+    "nome": "Tasha",
+    "email": "Tasha@gmail.com",
+    "cpf": "454.931.633-57",
+    "nomeDeUsuario": "Tasha_female",
+    "senha": "NLS84NZQ6PG"
+  },
+  {
+    "nome": "Jarrod",
+    "email": "Jarrod@gmail.com",
+    "cpf": "368.749.146-08",
+    "nomeDeUsuario": "Jarrod_male",
+    "senha": "KSV62GEI1VD"
+  },
+  {
+    "nome": "Chelsea",
+    "email": "Chelsea@gmail.com",
+    "cpf": "268.875.449-93",
+    "nomeDeUsuario": "Chelsea_female",
+    "senha": "IDJ79DAS8GN"
+  },
+  {
+    "nome": "Simone",
+    "email": "Simone@gmail.com",
+    "cpf": "730.830.448-41",
+    "nomeDeUsuario": "Simone_female",
+    "senha": "PSQ34YXC4ZY"
+  },
+  {
+    "nome": "Savannah",
+    "email": "Savannah@gmail.com",
+    "cpf": "137.831.189-89",
+    "nomeDeUsuario": "Savannah_female",
+    "senha": "CHI36YDD7MH"
+  },
+  {
+    "nome": "Austin",
+    "email": "Austin@gmail.com",
+    "cpf": "795.952.468-91",
+    "nomeDeUsuario": "Austin_male",
+    "senha": "WOX73TQM4EV"
+  },
+  {
+    "nome": "Palmer",
+    "email": "Palmer@gmail.com",
+    "cpf": "599.984.655-76",
+    "nomeDeUsuario": "Palmer_male",
+    "senha": "HFH65FWH1QA"
+  },
+  {
+    "nome": "Alexandra",
+    "email": "Alexandra@gmail.com",
+    "cpf": "866.293.234-01",
+    "nomeDeUsuario": "Alexandra_female",
+    "senha": "IFB68CRT6SG"
+  },
+  {
+    "nome": "Ishmael",
+    "email": "Ishmael@gmail.com",
+    "cpf": "810.293.113-12",
+    "nomeDeUsuario": "Ishmael_male",
+    "senha": "ZGO94OMU5BL"
+  },
+  {
+    "nome": "Pearl",
+    "email": "Pearl@gmail.com",
+    "cpf": "343.311.873-26",
+    "nomeDeUsuario": "Pearl_female",
+    "senha": "NTI81DHO5FD"
+  },
+  {
+    "nome": "Dean",
+    "email": "Dean@gmail.com",
+    "cpf": "877.967.455-12",
+    "nomeDeUsuario": "Dean_male",
+    "senha": "ARS75VHJ8GA"
+  },
+  {
+    "nome": "Julian",
+    "email": "Julian@gmail.com",
+    "cpf": "391.927.973-48",
+    "nomeDeUsuario": "Julian_male",
+    "senha": "FCO74FOH7XN"
+  },
+  {
+    "nome": "Nita",
+    "email": "Nita@gmail.com",
+    "cpf": "517.098.951-98",
+    "nomeDeUsuario": "Nita_female",
+    "senha": "OVI41CFH8QW"
+  },
+  {
+    "nome": "Tarik",
+    "email": "Tarik@gmail.com",
+    "cpf": "082.074.232-58",
+    "nomeDeUsuario": "Tarik_male",
+    "senha": "TKZ40NSA1SK"
+  },
+  {
+    "nome": "Jeremy",
+    "email": "Jeremy@gmail.com",
+    "cpf": "990.868.721-84",
+    "nomeDeUsuario": "Jeremy_male",
+    "senha": "AUL34PRF0CN"
+  },
+  {
+    "nome": "Stewart",
+    "email": "Stewart@gmail.com",
+    "cpf": "851.682.995-86",
+    "nomeDeUsuario": "Stewart_male",
+    "senha": "DRE14DWE1XU"
+  },
+  {
+    "nome": "Elliott",
+    "email": "Elliott@gmail.com",
+    "cpf": "260.499.063-46",
+    "nomeDeUsuario": "Elliott_male",
+    "senha": "MXP91QBE3KK"
+  },
+  {
+    "nome": "Carolyn",
+    "email": "Carolyn@gmail.com",
+    "cpf": "335.462.285-30",
+    "nomeDeUsuario": "Carolyn_female",
+    "senha": "MFF77ZVT4NG"
+  },
+  {
+    "nome": "Helen",
+    "email": "Helen@gmail.com",
+    "cpf": "046.544.759-12",
+    "nomeDeUsuario": "Helen_female",
+    "senha": "DQM58IKX4NP"
+  },
+  {
+    "nome": "Carly",
+    "email": "Carly@gmail.com",
+    "cpf": "456.227.296-33",
+    "nomeDeUsuario": "Carly_female",
+    "senha": "LQV86TXZ9RM"
+  },
+  {
+    "nome": "Preston",
+    "email": "Preston@gmail.com",
+    "cpf": "439.383.742-02",
+    "nomeDeUsuario": "Preston_male",
+    "senha": "AAB03YDV9MV"
+  },
+  {
+    "nome": "Alvin",
+    "email": "Alvin@gmail.com",
+    "cpf": "101.530.684-19",
+    "nomeDeUsuario": "Alvin_male",
+    "senha": "CJU94OKO7MJ"
+  },
+  {
+    "nome": "Lacy",
+    "email": "Lacy@gmail.com",
+    "cpf": "909.299.450-49",
+    "nomeDeUsuario": "Lacy_female",
+    "senha": "KRR15MMD8QA"
+  },
+  {
+    "nome": "Damian",
+    "email": "Damian@gmail.com",
+    "cpf": "429.195.929-73",
+    "nomeDeUsuario": "Damian_male",
+    "senha": "DXV63KCE3RR"
+  },
+  {
+    "nome": "Blossom",
+    "email": "Blossom@gmail.com",
+    "cpf": "154.415.424-72",
+    "nomeDeUsuario": "Blossom_female",
+    "senha": "BTA34WTW9HZ"
+  },
+  {
+    "nome": "Hammett",
+    "email": "Hammett@gmail.com",
+    "cpf": "591.659.665-23",
+    "nomeDeUsuario": "Hammett_male",
+    "senha": "YRY22ELF5HY"
+  },
+  {
+    "nome": "Maryam",
+    "email": "Maryam@gmail.com",
+    "cpf": "534.352.324-00",
+    "nomeDeUsuario": "Maryam_female",
+    "senha": "MUA19XSV6XS"
+  },
+  {
+    "nome": "Garrison",
+    "email": "Garrison@gmail.com",
+    "cpf": "148.145.213-87",
+    "nomeDeUsuario": "Garrison_male",
+    "senha": "YIQ73YNV9BS"
+  },
+  {
+    "nome": "Ria",
+    "email": "Ria@gmail.com",
+    "cpf": "281.796.067-61",
+    "nomeDeUsuario": "Ria_female",
+    "senha": "RBG35IFX4OT"
+  },
+  {
+    "nome": "Lane",
+    "email": "Lane@gmail.com",
+    "cpf": "410.739.122-79",
+    "nomeDeUsuario": "Lane_male",
+    "senha": "WCL73HHL6IO"
+  },
+  {
+    "nome": "Kalia",
+    "email": "Kalia@gmail.com",
+    "cpf": "460.203.232-31",
+    "nomeDeUsuario": "Kalia_female",
+    "senha": "TFN51OMR2BI"
+  },
+  {
+    "nome": "Caesar",
+    "email": "Caesar@gmail.com",
+    "cpf": "469.260.641-82",
+    "nomeDeUsuario": "Caesar_male",
+    "senha": "JFS34BZD0ZU"
+  },
+  {
+    "nome": "Jena",
+    "email": "Jena@gmail.com",
+    "cpf": "408.013.808-05",
+    "nomeDeUsuario": "Jena_female",
+    "senha": "AJQ99YMH1FG"
+  },
+  {
+    "nome": "Jacob",
+    "email": "Jacob@gmail.com",
+    "cpf": "801.856.641-52",
+    "nomeDeUsuario": "Jacob_male",
+    "senha": "AGI76WZG0VN"
+  },
+  {
+    "nome": "Rudyard",
+    "email": "Rudyard@gmail.com",
+    "cpf": "501.366.968-14",
+    "nomeDeUsuario": "Rudyard_male",
+    "senha": "XRH08KKL6XV"
+  },
+  {
+    "nome": "Odessa",
+    "email": "Odessa@gmail.com",
+    "cpf": "461.876.467-43",
+    "nomeDeUsuario": "Odessa_female",
+    "senha": "PHX17OZP9DW"
+  },
+
+  {
+    "nome": "Callum",
+    "email": "Callum@gmail.com",
+    "cpf": "667.777.243-69",
+    "nomeDeUsuario": "Callum_male",
+    "senha": "KHY30SXR2CS"
+  },
+  {
+    "nome": "Cameran",
+    "email": "Cameran@gmail.com",
+    "cpf": "104.871.702-00",
+    "nomeDeUsuario": "Cameran_female",
+    "senha": "PLE32PJY0IA"
+  },
+  {
+    "nome": "Clarke",
+    "email": "Clarke@gmail.com",
+    "cpf": "243.324.675-94",
+    "nomeDeUsuario": "Clarke_male",
+    "senha": "REC70EQC4DB"
+  },
+  {
+    "nome": "Sylvester",
+    "email": "Sylvester@gmail.com",
+    "cpf": "653.256.914-95",
+    "nomeDeUsuario": "Sylvester_male",
+    "senha": "OIW21IXA2AZ"
+  },
+  {
+    "nome": "Gemma",
+    "email": "Gemma@gmail.com",
+    "cpf": "344.611.158-47",
+    "nomeDeUsuario": "Gemma_female",
+    "senha": "ADD96IKQ1XK"
+  },
+  {
+    "nome": "Sybill",
+    "email": "Sybill@gmail.com",
+    "cpf": "325.374.658-34",
+    "nomeDeUsuario": "Sybill_female",
+    "senha": "JEV71EME8CF"
+  },
+  {
+    "nome": "Zelda",
+    "email": "Zelda@gmail.com",
+    "cpf": "093.017.415-72",
+    "nomeDeUsuario": "Zelda_female",
+    "senha": "RKY52LDV9TF"
+  },
+  {
+    "nome": "Ifeoma",
+    "email": "Ifeoma@gmail.com",
+    "cpf": "133.387.813-99",
+    "nomeDeUsuario": "Ifeoma_female",
+    "senha": "GRO41MSX6RB"
+  },
+  {
+    "nome": "Sheila",
+    "email": "Sheila@gmail.com",
+    "cpf": "280.426.824-83",
+    "nomeDeUsuario": "Sheila_female",
+    "senha": "PWB39OFD6EO"
+  },
+  {
+    "nome": "Basia",
+    "email": "Basia@gmail.com",
+    "cpf": "084.162.400-84",
+    "nomeDeUsuario": "Basia_female",
+    "senha": "CRL97AMA6AZ"
+  },
+  {
+    "nome": "Zeph",
+    "email": "Zeph@gmail.com",
+    "cpf": "392.785.568-51",
+    "nomeDeUsuario": "Zeph_male",
+    "senha": "QTA16RWC5WQ"
+  },
+  {
+    "nome": "Carson",
+    "email": "Carson@gmail.com",
+    "cpf": "217.337.650-00",
+    "nomeDeUsuario": "Carson_male",
+    "senha": "FHY37OTL3XZ"
+  },
+  {
+    "nome": "Laura",
+    "email": "Laura@gmail.com",
+    "cpf": "488.630.236-46",
+    "nomeDeUsuario": "Laura_female",
+    "senha": "JUB12GPB8TQ"
+  },
+  {
+    "nome": "Grant",
+    "email": "Grant@gmail.com",
+    "cpf": "255.380.637-06",
+    "nomeDeUsuario": "Grant_male",
+    "senha": "URT39BSI1IA"
+  },
+  {
+    "nome": "Jordan",
+    "email": "Jordan@gmail.com",
+    "cpf": "059.417.014-98",
+    "nomeDeUsuario": "Jordan_female",
+    "senha": "JJC55UVY6WT"
+  },
+  {
+    "nome": "Ima",
+    "email": "Ima@gmail.com",
+    "cpf": "615.550.968-32",
+    "nomeDeUsuario": "Ima_female",
+    "senha": "SHV22FDW5MQ"
+  },
+  {
+    "nome": "Guy",
+    "email": "Guy@gmail.com",
+    "cpf": "123.797.451-44",
+    "nomeDeUsuario": "Guy_male",
+    "senha": "XBS23VPQ6JI"
+  },
+  {
+    "nome": "Aladdin",
+    "email": "Aladdin@gmail.com",
+    "cpf": "668.887.162-08",
+    "nomeDeUsuario": "Aladdin_male",
+    "senha": "XVC14TYU9JH"
+  },
+  {
+    "nome": "Jakeem",
+    "email": "Jakeem@gmail.com",
+    "cpf": "826.318.119-06",
+    "nomeDeUsuario": "Jakeem_male",
+    "senha": "SYB13YNF8RT"
+  },
+  {
+    "nome": "Erin",
+    "email": "Erin@gmail.com",
+    "cpf": "402.172.404-26",
+    "nomeDeUsuario": "Erin_female",
+    "senha": "ZJR63NJW2PG"
+  },
+  {
+    "nome": "Sharon",
+    "email": "Sharon@gmail.com",
+    "cpf": "158.536.034-89",
+    "nomeDeUsuario": "Sharon_female",
+    "senha": "OHL31JZY5GY"
+  },
+  {
+    "nome": "Indigo",
+    "email": "Indigo@gmail.com",
+    "cpf": "966.900.858-90",
+    "nomeDeUsuario": "Indigo_female",
+    "senha": "BNN80BSJ3CI"
+  },
+  {
+    "nome": "Duncan",
+    "email": "Duncan@gmail.com",
+    "cpf": "175.970.261-66",
+    "nomeDeUsuario": "Duncan_male",
+    "senha": "UML20NXF0CG"
+  },
+  {
+    "nome": "Amity",
+    "email": "Amity@gmail.com",
+    "cpf": "543.454.471-18",
+    "nomeDeUsuario": "Amity_female",
+    "senha": "XQV79DYD3WP"
+  },
+  {
+    "nome": "Alana",
+    "email": "Alana@gmail.com",
+    "cpf": "171.376.416-15",
+    "nomeDeUsuario": "Alana_female",
+    "senha": "PHN07WUC3FR"
+  },
+  {
+    "nome": "Patricia",
+    "email": "Patricia@gmail.com",
+    "cpf": "396.420.295-07",
+    "nomeDeUsuario": "Patricia_female",
+    "senha": "CZC39GYJ3DB"
+  },
+  {
+    "nome": "Denton",
+    "email": "Denton@gmail.com",
+    "cpf": "648.575.007-70",
+    "nomeDeUsuario": "Denton_male",
+    "senha": "GVA77TYN2HY"
+  },
+  {
+    "nome": "Sigourney",
+    "email": "Sigourney@gmail.com",
+    "cpf": "279.834.577-45",
+    "nomeDeUsuario": "Sigourney_female",
+    "senha": "VSL89YWS5ZA"
+  },
+  {
+    "nome": "Bianca",
+    "email": "Bianca@gmail.com",
+    "cpf": "726.434.749-59",
+    "nomeDeUsuario": "Bianca_female",
+    "senha": "VQZ44RCQ8UL"
+  },
+  {
+    "nome": "Fay",
+    "email": "Fay@gmail.com",
+    "cpf": "920.453.674-20",
+    "nomeDeUsuario": "Fay_female",
+    "senha": "QWR37XCU6AV"
+  },
+  {
+    "nome": "Serena",
+    "email": "Serena@gmail.com",
+    "cpf": "671.700.566-68",
+    "nomeDeUsuario": "Serena_female",
+    "senha": "NZP82NFR2BC"
+  },
+  {
+    "nome": "Flavia",
+    "email": "Flavia@gmail.com",
+    "cpf": "909.619.674-13",
+    "nomeDeUsuario": "Flavia_female",
+    "senha": "HHS73FKT7YC"
+  },
+  {
+    "nome": "Quamar",
+    "email": "Quamar@gmail.com",
+    "cpf": "889.890.444-75",
+    "nomeDeUsuario": "Quamar_male",
+    "senha": "ILG17ZVX5KW"
+  }
+]

@@ -56,33 +56,54 @@ class Usuario {
 
   //função de consulta de usuarios
   async retornaUsuarios(req, res, next) {
-    const { searchText } = req.query;
-    if (searchText) {
-      const usuarios = await User.aggregate([
-        {
-          $match: {
-            $or: [
-              {
-                email: new RegExp(searchText, "i"),
-              },
-              {
-                nome: new RegExp(searchText, "i"),
-              },
-            ],
-          },
+    const { searchText, page } = req.query;
+    const skip = page ? Number(page) * 10 : 0;
+    const usuarios = await User.aggregate([
+      {
+        $match: {
+          $or: [
+            {
+              email: new RegExp(searchText || "", "i"),
+            },
+            {
+              nome: new RegExp(searchText || "", "i"),
+            },
+          ],
         },
-      ]);
-      if (!usuarios) {
-        return res.status(400).json({ message: "Usuário não encontrado!" });
-      }
-      return res.json(usuarios);
-    } else {
-      const usuarios = await User.find();
-      if (!usuarios) {
-        return res.status(400).json({ message: "Usuário não encontrado!" });
-      }
-      return res.json(usuarios);
+      },
+      {
+        $sort: {
+          nome: 1,
+        },
+      },
+      {
+        $skip: skip,
+      },
+      {
+        $limit: 10,
+      },
+    ]);
+    const total = await User.aggregate([
+      {
+        $match: {
+          $or: [
+            {
+              email: new RegExp(searchText || "", "i"),
+            },
+            {
+              nome: new RegExp(searchText || "", "i"),
+            },
+          ],
+        },
+      },
+      {
+        $count: "total",
+      },
+    ]);
+    if (!usuarios) {
+      return res.status(400).json({ message: "Usuário não encontrado!" });
     }
+    return res.json({ usuarios, total: total[0].total });
   }
 
   //função de exclusão de usuario
