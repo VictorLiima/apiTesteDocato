@@ -3,7 +3,8 @@ var router = express.Router();
 
 const jwt = require("jsonwebtoken");
 const Usuario = require("../controllers/userController.js");
-const Auth = require("../controllers/authController");
+const Auth = require("../controllers/authController.js");
+const docatoProdutos = require("../controllers/docatoProdutosController.js");
 
 /* GET home page. */
 router.get("/", (req, res, next) => {
@@ -44,5 +45,10 @@ router.delete("/usuario/:id", async (req, res, next) => {
 router.post("/login", async (req, res, next) => {
   var auth = new Auth();
   await auth.login(req, res, next);
+});
+
+router.get("/docato/produtos", async (req, res, next) => {
+  var docatoP = new docatoProdutos();
+  await docatoP.getInfo(req, res, next);
 });
 module.exports = router;
