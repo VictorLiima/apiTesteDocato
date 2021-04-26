@@ -16,7 +16,7 @@
 
 - Popule seu banco com o arquivo databaseInicial.json
 
-- A partir de agora seu login será primeiro@gmail.com e a senha de acesso é primeiro
+- A partir de agora seu login será `primeiro@gmail.com` e a senha de acesso é primeiro
 
 - Guarde essas informações! 
 
