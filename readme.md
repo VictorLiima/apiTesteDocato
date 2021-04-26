@@ -39,8 +39,8 @@
 
     body:
         {
-            "email": "docatoAdmin@gmail.com",
-            "senha": "docato2021"
+            "email": "primeiro@gmail.com",
+            "senha": "primeiro"
         }
 
 ### Usuário
