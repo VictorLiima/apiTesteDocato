@@ -1,12 +1,5 @@
 [
   {
-    "nome": "admin",
-    "email": "admin@gmail.com",
-    "cpf": "000.000.000-00",
-    "nomeDeUsuario": "admin_admin",
-    "senha": "12345678"
-  },
-  {
     "nome": "Ocean",
     "email": "Ocean@gmail.com",
     "cpf": "381.969.896-65",

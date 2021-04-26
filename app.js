@@ -10,6 +10,8 @@ var indexRouter = require("./routes/index");
 
 var app = express();
 
+const urlServer = "localhost";
+const banco = "docatoTest";
 // view engine setup
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
@@ -20,17 +22,10 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
 
-mongoose.connect("mongodb://localhost/docatoTest", {
+mongoose.connect("mongodb://" + urlServer + "/" + banco, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
-
-// app.use((req, res, next) => {
-//     res.header("Access-Control-Allow-Origin", "*");
-//     res.header("Access-Control-Allow-Methods", 'GET,PUT,POST,DELETE,OPTIONS');
-//     app.use(cors());
-//     next();
-// });
 
 app.use(cors());
 
